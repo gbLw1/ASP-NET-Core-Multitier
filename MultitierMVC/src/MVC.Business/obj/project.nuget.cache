@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kXZBZu1FCXcEh7dhu+g2cAt2Y9BpzleKEZ0FSl2cgaaJwZu080ZZ3Rg2K2F4LaNCt2jzvgCAktp/7u8rVZpsFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabri\\Desktop\\Multitier MVC\\MultitierMVC\\src\\MVC.Business\\MVC.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
+  ],
+  "logs": []
+}
