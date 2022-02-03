@@ -2,21 +2,21 @@
 
 ## Versão completa do [Projeto inicial ASP.NET 6](https://github.com/gbLw1/ASP.NET-Core-Project-dotnet-6)
 
-## .NET SDK Version : [net6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+## .NET SDK Version: [net6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
-## Estilo Arquitetural : [Client-Server](https://pt.wikipedia.org/wiki/Modelo_cliente%E2%80%93servidor), [Multicamada](https://pt.wikipedia.org/wiki/Arquitetura_multicamada)
+## Estilo Arquitetural: [Client-Server](https://pt.wikipedia.org/wiki/Modelo_cliente%E2%80%93servidor), [Multicamada](https://pt.wikipedia.org/wiki/Arquitetura_multicamada)
 
-## Padrão arquitetural : [MVC](https://pt.wikipedia.org/wiki/MVC), [Repository](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design#:~:text=The%20Repository%20pattern%20is%20a,working%20with%20a%20data%20source.&text=A%20repository%20performs%20the%20tasks,of%20domain%20objects%20in%20memory.)
+## Padrão arquitetural: [MVC](https://pt.wikipedia.org/wiki/MVC), [Repository](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design#:~:text=The%20Repository%20pattern%20is%20a,working%20with%20a%20data%20source.&text=A%20repository%20performs%20the%20tasks,of%20domain%20objects%20in%20memory.)
 
 ## Segurança: [ASP.NET Identity](https://docs.microsoft.com/en-US/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity)
 
-## ORM : [EntityFramework Core](https://pt.wikipedia.org/wiki/Entity_Framework)
+## ORM: [EntityFramework Core](https://pt.wikipedia.org/wiki/Entity_Framework)
 
 ---
 
 ## Camadas da aplicação
 
- -  Apresentação
+ - Apresentação
  - Negócios
  - Acesso a dados
 
@@ -28,7 +28,7 @@
  - [x] Criação das camadas
  - [x] Modelagem das entidades
  - [x] Instalação das dependências do EF Core
- - [x] Referênciar os projetos
+ - [x] Referenciar os projetos
  - [x] Mapeamento das entidades para o banco de dados (Fluent API)
  - [x] Implementação do Repository Pattern
  - [x] Mapeamento das entidades em ViewModels (AutoMapper)
