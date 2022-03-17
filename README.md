@@ -1,6 +1,6 @@
 # ASP.NET Core App Complexa
 
-## Versão completa do [Projeto inicial ASP.NET 6](https://github.com/gbLw1/ASP.NET-Core-Project-dotnet-6)
+## Versão completa do [Projeto inicial ASP.NET 6](https://github.com/gbLw1/ASP.NET-Core-MVC-WebApp)
 
 ## .NET SDK Version: [net6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
