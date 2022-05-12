@@ -49,6 +49,16 @@
 
 --- 
 
+## Como Testar meu projeto?
+
+  - Aplicar as migrations em ambos os contextos (ApplicationDbContext + MeuDbContext)
+    - ApplicationDbContext : Contexto do Identity (contem as tabelas do identity no banco)
+    - MeuDbContexto : Contexto das tabelas da aplicação (fornecedores, produtos..)
+  - Cadastrar um usuário (Home → Nova Conta)
+  - Definir as Claims de acesso para o usuário (dbo.AspNetUserClaims)
+
+---
+
 ## NuGet Packages
 
   ### MVC.App
