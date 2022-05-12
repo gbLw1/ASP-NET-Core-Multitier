@@ -58,6 +58,9 @@ namespace MVC.Business.Services
                 return;
             }
 
+            var endereco = _fornecedorRepository.ObterFornecedorEndereco(id).Result.Endereco.Id;
+            await _enderecoRepository.Remover(endereco);
+
             await _fornecedorRepository.Remover(id);
         }
 
