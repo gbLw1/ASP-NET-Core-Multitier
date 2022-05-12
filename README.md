@@ -52,10 +52,25 @@
 ## Como Testar meu projeto?
 
   - Aplicar as migrations em ambos os contextos (ApplicationDbContext + MeuDbContext)
-    - ApplicationDbContext : Contexto do Identity (contem as tabelas do identity no banco)
-    - MeuDbContexto : Contexto das tabelas da aplicação (fornecedores, produtos..)
-  - Cadastrar um usuário (Home → Nova Conta)
-  - Definir as Claims de acesso para o usuário (dbo.AspNetUserClaims)
+    - Para isso, abra seu terminal na raíz do projeto e execute as duas linhas de comando abaixo.
+  
+    Tabelas do sistema (MeuDbContexto):
+    ```
+    dotnet ef database update -v -s .\src\MVC.App\MVC.App.csproj -p .\src\MVC.Data\MVC.Data.csproj -c MeuDbContext
+    ```
+    Identity (ApplicationDbContext):
+    ```
+    dotnet ef database update -v -s .\src\MVC.App\MVC.App.csproj -p .\src\MVC.Data\MVC.Data.csproj -c ApplicationDbContext
+    ```
+
+  - Em seguida, inicie a aplicação e cadastre um usuário (Home → Nova Conta)
+    ```
+    dotnet run
+    ```
+  - Definir as Claims de acesso para o usuário no banco (tabela: dbo.AspNetUserClaims)
+    - UserId: (guid do usuário cadastrado previamente)
+    - ClaimType: Fornecedor
+    - ClaimValue: Adicionar,Editar,Excluir
 
 ---
 
