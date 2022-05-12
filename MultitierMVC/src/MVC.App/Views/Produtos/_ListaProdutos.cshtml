@@ -25,23 +25,23 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>
+                <td class="align-baseline">
                 <img src="~/imagens/@item.Imagem" alt="@item.Imagem" width="70px" height="100px" />
                 </td>
-                <td>
+                <td class="align-baseline">
                     @Html.DisplayFor(modelItem => item.Nome)
                 </td>
-                <td>
+                <td class="align-baseline">
                     @Html.DisplayFor(modelItem => item.Fornecedor.Nome)
                 </td>
-                <td>
+                <td class="align-baseline">
                     @item.Valor.ToString("C")
                 </td>
-                <td>
+                <td class="align-baseline">
                     @Html.DisplayFor(modelItem => item.Ativo)
                 </td>
 
-                <td class="text-right">
+                <td class="text-right align-baseline">
                     <a class="btn btn-info" asp-controller="Produtos" asp-action="Details" asp-route-id="@item.Id"><span class="fa fa-search"></span></a>
                     <a class="btn btn-warning" asp-controller="Produtos" asp-action="Edit" asp-route-id="@item.Id"><span class="fa fa-pencil-alt"></span></a>
                     <a class="btn btn-danger" asp-controller="Produtos" asp-action="Delete" asp-route-id="@item.Id"><span class="fa fa-trash"></span></a>
