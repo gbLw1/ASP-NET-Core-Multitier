@@ -58,7 +58,7 @@
     ```
     dotnet ef database update -v -s .\src\MVC.App\MVC.App.csproj -p .\src\MVC.Data\MVC.Data.csproj -c MeuDbContext
     ```
-    Identity (ApplicationDbContext):
+    Tabelas do Identity (ApplicationDbContext):
     ```
     dotnet ef database update -v -s .\src\MVC.App\MVC.App.csproj -p .\src\MVC.Data\MVC.Data.csproj -c ApplicationDbContext
     ```
@@ -67,11 +67,11 @@
     ```
     dotnet run
     ```
-  - Definir as Claims de acesso para o usuário no banco (tabela: dbo.AspNetUserClaims)
+  - Definir as Claims de acesso para o usuário no banco (Tabela: dbo.AspNetUserClaims)
     - UserId: (guid do usuário cadastrado previamente)
     - ClaimType: Fornecedor
     - ClaimValue: Adicionar,Editar,Excluir
-
+  - :+1:
 ---
 
 ## NuGet Packages
