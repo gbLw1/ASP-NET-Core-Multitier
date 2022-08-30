@@ -54,7 +54,7 @@
   - Aplicar as migrations em ambos os contextos (ApplicationDbContext + MeuDbContext)
     - Para isso, abra seu terminal na raíz do projeto e execute as duas linhas de comando abaixo.
   
-    Tabelas do sistema (MeuDbContexto):
+    Tabelas do sistema (MeuDbContext):
     ```
     dotnet ef database update -v -s .\src\MVC.App\MVC.App.csproj -p .\src\MVC.Data\MVC.Data.csproj -c MeuDbContext
     ```
